@@ -1,7 +1,5 @@
 Name: 			Matthew Cummins
-Start Date:		30th October 2017
 Project Title: 		Commodity Market System
-Description: 		A platform for trading commodities contracts.
 Extensions Added: 	None
 
 OVERVIEW
