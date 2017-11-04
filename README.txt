@@ -23,13 +23,12 @@ The libraries that the program uses are <iostream>, <string>, <map>, <vector> an
 
 To exit the program, use the command "EXIT".
 
+CONTENTS
+The code is split over four files, "Source.cpp", "CMarket.cpp", "CMarket.h" and "CPost.h".
+
 KNOWN BUGS
 This is about the command line arguments. Specifically, when handling the command line arguments for the extensions. To detect these, since 
 the arguments are "ext1<PortNo>" and "ext2<PortNo>", the program simply looks at the fourth character and uses that to determine which exit 
 code to display. This should still do the job since my program will only be ran using those 3 arguments and nothing else, but it still feels 
 like a bug as other commands could cause the specific exit codes to run (for example, "abc1" would exit with exit code 1 even though it 
-should not).
-
-HOW TO BUILD
-The code is split over four files, "Source.cpp", "CMarket.cpp", "CMarket.h" and "CPost.h". I have included my full Visual Studio 2017 
-project file, as well as a folder called "CODE" containing just the .cpp and header files in case you wish to compile the program yourself.
+should not). 
